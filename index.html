@@ -3,10 +3,46 @@
 <html>
     <head>
         <title>My first webpage</title>
+        <style>
+            h1 {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: green;
+                font: 2em;
+            }
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                font: 100;
+            }
+            img {
+                border-radius: 50%;
+            }
+        </style>
     </head>
     <body>
-        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        <h1>
             Hey, It's Mark Borum!
         </h1>
+        <p>If you want to see where I poorly build websites check out my <a href="https://github.com/mbo11" target="_blank">Github</a>.</p>
+        <p>I was proudly made in the U.S.A. 🇺🇸</p>
+        <p>When I'm not struglling to put together a text-based site, I'm typically doing one of the three <q>W's</q>:</p>
+        <ul>
+            <li>Wrestling bears</li>
+            <li>Wheelbarrow racing</li>
+            <li>Whistling gently in my sleep</li>
+        </ul>
+        <p>I couldn't find a picture of the bear wrestling, but please enjoy seeing me whistle quietly with my nugget of a dog.</p>
+        <img src="IMG_3422.jpg" alt="Mark sleeping with his dog Daisy" width="200px">
+        <p>Let's keep in touch!</p>
+        <form>
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" placeholder="Enter Name"/>
+            <br/>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Enter Email"/>
+            <br/>
+            <textarea>Enter Comment</textarea>
+            <br/>
+            <input type="submit">
+        </form>
     </body>
 </html>
